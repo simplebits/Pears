@@ -8,7 +8,7 @@
 
 <!-- hide css from IE6 but load for everyone else -->
 <!--[if gte IE 7]><!-->
-<link rel="stylesheet/less" media="screen, projection" href="/wp-content/themes/pears/css/screen.less" />
+<link rel="stylesheet/less" media="screen, projection" href="<?php echo get_template_directory_uri(); ?>/css/screen.less" />
 <!-- <![endif]-->
 
 <link rel="shortcut icon" href="/favicon.png" /> 
@@ -18,7 +18,7 @@
 <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
 
-<script type="text/javascript" src="/wp-content/themes/pears/js/less.js"></script>
+<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/less.js"></script>
 </head>
 
 <body <?php body_class(); ?>>
