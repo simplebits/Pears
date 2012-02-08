@@ -13,7 +13,7 @@ HOW TO ADD CODE PATTERNS
 - Each pattern is a post in WordPress. 
 - Add markup in a custom field named 'html'.
 - Add style in a custom field named 'css'.
-- Use the main content field for optinal notes.
+- Use the main content field for optional notes.
 
 Learn more and see it in action here:
 http://pea.rs
